@@ -9,9 +9,9 @@
   ],
   "scripts": {
     "develop": "gatsby develop",
-    "start": "gatsby develop",
+    "start": "npm run serve",
     "build": "gatsby build",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve -p ${PORT:-8080}",
     "clean": "gatsby clean"
   },
   "dependencies": {
