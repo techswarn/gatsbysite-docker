@@ -124,13 +124,14 @@ const links = [
 ]
 //Delete this, jsut for testing
 
-console.log(process.env.TEST)
+
 
 const IndexPage = () => {
   return (
+    
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Site is hacked
+        Site is hacked 
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
@@ -138,6 +139,7 @@ const IndexPage = () => {
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
       </p>
+      <span>{console.log(process.env.TEST)}</span>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
