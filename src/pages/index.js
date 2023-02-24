@@ -122,6 +122,9 @@ const links = [
     color: "#663399",
   },
 ]
+//Delete this, jsut for testing
+
+console.log(process.env.TEST)
 
 const IndexPage = () => {
   return (
