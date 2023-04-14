@@ -11,4 +11,4 @@ EXPOSE 8080
 COPY ./nginx/default.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /app/public /usr/share/nginx/html
 #CMD ["tail", "-f","/dev/null"]
-CMD ["nginx", "-g", "daemon off;"]
+#CMD ["nginx", "-g", "daemon off;"]
