@@ -127,7 +127,7 @@ const links = [
 const IndexPage = () => {
   return (
     <main style={pageStyles}>
-      <h1>Just a page</h1>
+      <h1>Just a page version2</h1>
     </main>
   );
 };
